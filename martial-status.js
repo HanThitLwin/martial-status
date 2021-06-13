@@ -3,7 +3,7 @@ var doc = document
 var demo = doc.getElementById('demo');
 var h2 = doc.createElement('h2');
 h2.innerHTML = "Choose Your Maritial Status"
-demo.appendChild (h2)
+demo.appendChild (h2);
 
 var input = doc.createElement ('INPUT');
 input.setAttribute("type" , "radio");
@@ -14,7 +14,7 @@ demo.appendChild (input);
 
 var label = doc.createElement ("label");
 label.innerHTML = "Single"
-demo.appendChild (label)
+demo.appendChild (label);
 
 var input = doc.createElement ('INPUT');
 input.setAttribute("type" , "radio");
@@ -25,7 +25,7 @@ demo.appendChild (input);
 
 var label = doc.createElement ("label");
 label.innerHTML = "Married "
-demo.appendChild (label)
+demo.appendChild (label);
 
 var input = doc.createElement ('INPUT');
 input.setAttribute("type" , "radio");
